@@ -32,6 +32,14 @@ $ git clone https://github.com/moritanuki/recursion-quadrilateral.git
 $ cd recursion-quadrilateral/
 $ javac -encoding utf-8 Main.java
 ```
+
+## Anything Else
+
+以下のレビューを受けて、オーバーロードコンストラクタを実装しました。
+レビューありがとうございました！
+ 
+***Review Comment:***
+![Review Comment](https://raw.github.com/wiki/moritanuki/recursion-quadrilateral/images/review_comment.PNG)
  
 ## Author
  
