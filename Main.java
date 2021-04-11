@@ -18,7 +18,12 @@ class Main{
         System.out.println(parallelogram2.getShapeType());
         System.out.println(parallelogram2.draw());
         // 台形
-        QuadrilateralShape trapezoid = new QuadrilateralShape(0,0,6,0,4,2,2,2);
+        QuadrilateralShape trapezoid = new QuadrilateralShape(
+            new Line(new Point(0,0), new Point(6,0)),
+            new Line(new Point(6,0), new Point(4,2)),
+            new Line(new Point(4,2), new Point(2,2)),
+            new Line(new Point(2,2), new Point(0,0))
+        );
         System.out.println(trapezoid.getShapeType());
         System.out.println(trapezoid.draw());
     }
@@ -56,6 +61,13 @@ class QuadrilateralShape{
         this.lineBC = new Line(new Point(bx, by), new Point(cx, cy));
         this.lineCD = new Line(new Point(cx, cy), new Point(dx, dy));
         this.lineDA = new Line(new Point(dx, dy), new Point(ax, ay));
+    }
+
+    public QuadrilateralShape( Line lineAB, Line lineBC, Line lineCD, Line lineDA){
+        this.lineAB = lineAB;
+        this.lineBC = lineBC;
+        this.lineCD = lineCD;
+        this.lineDA = lineDA;
     }
 
     // 1辺の長さを返す
