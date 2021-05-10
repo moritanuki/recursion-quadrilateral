@@ -3,7 +3,7 @@ Recursion オブジェクトの練習4 -Quadrilateral Shape-
 
 ## Description
  
-Computer Science学習プラットフォーム *Recursion* でのオブジェクトの練習問題。
+Computer Science学習プラットフォーム [*Recursion*](https://recursionist.io/) でのオブジェクトの練習問題。
 Javaで4点の座標をもつ四辺形クラスを作成しました。
  
 ***DEMO:***
